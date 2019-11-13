@@ -24,20 +24,28 @@ def play(songs)
       songs[0]
     elsif song_identity == "2"
       puts songs[1]
+      songs[1]
     elsif song_identity == "3"
       puts songs[2]
+      songs[2]
     elsif song_identity == "4"
       puts songs[3]
+      songs[3]
     elsif song_identity == "5"
       puts songs[4]
+      songs[4]
     elsif song_identity == "6"
       puts songs[5]
+      songs[5]
     elsif song_identity == "7"
       puts songs[6]
+      songs[6]
     elsif song_identity == "8"
       puts songs[7]
+      songs[7]
     elsif song_identity == "9"
       puts songs[8]
+      songs[8]
     end
 
   end
