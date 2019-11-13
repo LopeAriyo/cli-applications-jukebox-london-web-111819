@@ -93,7 +93,7 @@ def run(songs)
  print("Please enter a command:")
  user_input = gets.chomp
 
-  # while user_input != "exit" do
+ until  user_input == "exit" do
     # if user_input == "help"
     #   help
 
@@ -109,7 +109,7 @@ def run(songs)
      #end
 
      #user_input = gets.strip
-   #end
+ end
 
  exit_jukebox
 
