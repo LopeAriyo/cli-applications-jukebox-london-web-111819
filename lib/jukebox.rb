@@ -94,26 +94,25 @@ def run(songs)
  user_input = gets.chomp
 
    while user_input != "exit" do
-     run(songs)
+     if user_input == "help"
+       help
+
+     end
+
+     if user_input == "list"
+       list(songs)
+     end
+
+     if user_input == "play"
+       puts "Playing #{play(songs)}"
+
+     end
+
+     user_input = gets.strip
    end
 
 
-
-   if user_input == "help"
-     help
-
-   end
-
-   if user_input == "list"
-     list(songs)
-   end
-
-   if user_input == "play"
-     puts "Playing #{play(songs)}"
-
-   end
-
-   user_input = gets.strip
+   
 
 
 
