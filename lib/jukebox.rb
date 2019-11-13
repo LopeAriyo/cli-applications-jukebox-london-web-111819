@@ -97,7 +97,7 @@ def run(songs)
      run(songs)
    end
 
-   
+
 
    if user_input == "help"
      help
