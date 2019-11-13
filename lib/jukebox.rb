@@ -57,6 +57,8 @@ def play(songs)
     puts("Invalid input, please try again")
   end
 
+  binding.pry
+
 end
 
 def list(songs)
