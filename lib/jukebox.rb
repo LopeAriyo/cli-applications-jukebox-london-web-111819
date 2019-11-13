@@ -93,20 +93,18 @@ def run(songs)
  print("Please enter a command:")
  user_input = gets.chomp
 
- until  user_input == "exit" do
-    # if user_input == "help"
-    #   help
+ while user_input != "exit" do
+     if user_input == "help"
+       help
+     end
 
-     #end
+     if user_input == "list"
+       list(songs)
+     end
 
-     #if user_input == "list"
-      # list(songs)
-     #end
-
-     #if user_input == "play"
-      # puts "Playing #{play(songs)}"
-
-     #end
+     if user_input == "play"
+       puts "Playing #{play(songs)}"
+     end
 
      user_input = gets.strip
  end
