@@ -111,9 +111,9 @@ def run(songs)
 
    user_input = gets.strip
 
- end
+ #end
 
- exit_jukebox
+ #exit_jukebox
 
  binding.pry
 end
