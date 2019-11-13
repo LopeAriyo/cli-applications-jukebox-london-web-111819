@@ -85,7 +85,7 @@ def run(songs)
 
    if user_input == "help"
      help
-     
+
    end
 
    if user_input == "list"
@@ -94,7 +94,7 @@ def run(songs)
 
    if user_input == "play"
      play(songs)
-     
+
    end
 
    user_input = gets.strip
