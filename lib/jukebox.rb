@@ -111,6 +111,12 @@ def run(songs)
      user_input = gets.strip
    end
 
+   if user_input == "exit"
+
+     exit_jukebox
+
+   end
+
 
 
 
