@@ -56,6 +56,7 @@ def play(songs)
 
     if song_identity == songs[track_number]
       puts songs[track_number]
+      songs[track_number]
     end
 
     track_number += 1
