@@ -90,7 +90,7 @@ end
 
 def run(songs)
 
- puts("Please enter a command:")
+ print("Please enter a command:")
  user_input = gets.chomp
 
  #while user_input != "exit" do
