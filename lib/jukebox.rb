@@ -93,7 +93,7 @@ def run(songs)
  puts("Please enter a command:")
  user_input = gets.strip
 
- until user_input == "exit" do
+ while user_input != "exit" do
 
    if user_input == "help"
      help
