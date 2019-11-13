@@ -105,7 +105,7 @@ def run(songs)
    end
 
    if user_input == "play"
-     play(songs)
+     puts "Playing #{play(songs)}"
 
    end
 
