@@ -88,15 +88,16 @@ def run(songs)
      user_input = gets.strip
    end
 
-   if user_input == "list"
-     list(songs)
-     user_input = gets.strip
-   end
 
    if user_input == "play"
      play(songs)
      user_input = gets.strip
      binding.pry
+   end
+
+   if user_input == "list"
+     list(songs)
+     user_input = gets.strip
    end
 
    if user_input != "help" || user_input != "list" || user_input != "play"
