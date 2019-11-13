@@ -21,7 +21,7 @@ def play(songs)
 
     if song_identity == "1"
       puts songs[0]
-      songs[0]
+      return songs[0]
     elsif song_identity == "2"
       puts songs[1]
       songs[1]
