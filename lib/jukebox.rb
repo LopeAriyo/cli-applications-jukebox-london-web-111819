@@ -108,7 +108,7 @@ def run(songs)
 
      #end
 
-     #user_input = gets.strip
+     user_input = gets.strip
  end
 
  exit_jukebox
