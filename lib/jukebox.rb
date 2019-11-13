@@ -20,7 +20,7 @@ def play(songs)
   if song_identity.to_i
 
     if song_identity == "1"
-      p songs[0]
+      puts songs[0]
     elsif song_identity == "2"
       puts songs[1]
     elsif song_identity == "3"
